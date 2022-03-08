@@ -1,5 +1,5 @@
 # 笔记
-- 数据库
+- DB
   - MySQL
   - Binlog
   - Redis
