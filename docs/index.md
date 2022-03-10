@@ -4,7 +4,7 @@
     - [Index](docs/DB/MySQL/Index)
   - Binlog
     - Maxwell
-      - [安装](docs/DB/Binlog/Maxwell/Install.md)
+      - [安装](./DB/Binlog/Maxwell/Install.md)
   - Redis
 - Kafka
   - Server
