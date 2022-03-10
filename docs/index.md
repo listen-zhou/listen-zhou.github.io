@@ -1,7 +1,10 @@
 # 笔记
 - DB
-  - MySQL
+  - [MySQL](docs/DB/MySQL)
+    - [Index](docs/DB/MySQL/Index)
   - Binlog
+    - Maxwell
+      - [安装](docs/DB/Binlog/Maxwell/Install.md)
   - Redis
 - Kafka
   - Server
