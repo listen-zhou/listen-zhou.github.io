@@ -7,6 +7,7 @@
   - Server
   - Confluent
   - Schema
+  - Client
 - ES
   - Server
   - Kibana
@@ -27,4 +28,4 @@
 - Tomcat
 - Zookeeper
   - Server
-  - 
+  - Client
