@@ -1,7 +1,7 @@
 # 笔记
 - DB
-  - [MySQL](docs/DB/MySQL)
-    - [Index](docs/DB/MySQL/Index)
+  - MySQL
+    - [Index](./DB/MySQL/Index)
   - Binlog
     - Maxwell
       - [安装](./DB/Binlog/Maxwell/Install.md)
