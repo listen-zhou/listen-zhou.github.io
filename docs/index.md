@@ -11,6 +11,7 @@
   - Confluent
   - Schema
   - Client
+    - [消费Maxwell发送到Kafka的Binlog数据案例](./Kafka/Client/Maxwell-Binlog-Consume.md)
 - ES
   - Server
   - Kibana
@@ -32,3 +33,5 @@
 - Zookeeper
   - Server
   - Client
+- FlowChart
+  - [mermaid简单使用说明](./Flowchart/mermaid.md)
