@@ -4,20 +4,7 @@
 
 ## 逻辑流程图
 
-
-
-```mermaid
-graph LR
-start(开始) --> config-start
-subgraph load-config[配置加载]
-	config-start[开始加载配置] --多数据源映射-->  db-mapping --> init-datasource[初始化多数据源]
-	config-start --多表对表映射--> table-mapping --> init-table-to-tables-config[初始化表对表配置]
-end
-subgraph init-consumer[初始化kafka多消费者]
-	create-consumers[多消费者线程] --订阅topic--> consume-messages[消费消息] --清洗--> persist-to-target-db[持久化到目标库] --> commit-offsets[提交消费位点] --> persist-group-name-consume-time[记录分组消费者消费消息最新时间戳]
-end
-init-table-to-tables-config --group-name--> create-consumers
-```
+![image-20220311155022234](./Images/Chart/kafka-consumer.jpg)
 
 ## 工程结构图
 
