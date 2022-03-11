@@ -4,7 +4,7 @@
 
 ## 逻辑流程图
 
-![image-20220311155022234](./Images/Chart/kafka-consumer.jpg)
+![image-20220311155022234](../../Images/Chart/kafka-consumer.jpg)
 
 ## 工程结构图
 
